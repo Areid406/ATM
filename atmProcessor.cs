@@ -8,8 +8,8 @@
  * atmProcessor should also handle cases where amounts for a
  * certain denomination(s) may not be given due to incorrect 
  * input formatting. i.e. = [m, n5, n10, , , ]
-                            [m, n5, n10]
-                            [m, n5]
+ *                          [m, n5, n10]
+ *                          [m, n5]
  */
 
 using System;
