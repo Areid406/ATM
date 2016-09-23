@@ -1,4 +1,13 @@
-﻿using System;
+/* denom -version 0.1 - authored by Max Austin
+ * For use in CSCI305 Fall 2016 Lab #4 - ATM 
+ * 
+ * denom stores the amounts of each denomination available to
+ * the ATM to make change with.
+ * Stored as integers, with associated getter and setter methods.
+ *
+ */
+
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
