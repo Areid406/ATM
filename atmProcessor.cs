@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
@@ -28,11 +28,22 @@ namespace atm
                 using (StreamReader sr = new StreamReader(filename))
                 {
                     string line;
+                    int amount, five, ten, twenty, fifty, hundred;
                     // Read and display lines from the file until the end of 
                     // the file is reached.
                     while ((line = sr.ReadLine()) != null)
                     {
-                        Console.WriteLine(line);
+                        line = sr.ReadLine();
+                        char[] nums = line.ToCharArray(); //unsure how to break up input to give change and denom correct values
+
+                        if(nums.Length < 6) //condition to handle if less than 6 args are in a line (amt + 5 denoms)
+                        {
+                            for (int i = 0; i < nums.Length; i++) //loop through and assign vals to declared ints for denoms?
+                            {
+                                
+                            }
+                        }
+                            
                     }
                 }
             }
