@@ -1,4 +1,12 @@
-﻿using System;
+/* change -version 0.1 - authored by Max Austin
+ * For use in CSCI305 Fall 2016 Lab #4 - ATM 
+ * 
+ * change stores the amount of money needed to be dispensed by the ATM
+ * as an integer, with associated getter and setter methods.
+ *
+ */
+
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
