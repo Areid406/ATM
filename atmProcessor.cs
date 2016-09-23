@@ -1,3 +1,17 @@
+/* atmProcessor -version 0.1 - authored by Alex Reid
+ * For use in CSCI305 Fall 2016 Lab #4 - ATM 
+ * 
+ * atmProcessor attempts to process the file gotten from atmDriver
+ * and determine the amount of money needed to be dispensed and the 
+ * amount of each denomination. Will return exception if file not found.
+ *
+ * atmProcessor should also handle cases where amounts for a
+ * certain denomination(s) may not be given due to incorrect 
+ * input formatting. i.e. = [m, n5, n10, , , ]
+                            [m, n5, n10]
+                            [m, n5]
+ */
+
 using System;
 using System.Collections.Generic;
 using System.IO;
