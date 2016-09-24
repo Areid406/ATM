@@ -1,12 +1,3 @@
-/* denom -version 0.1 - authored by Max Austin
- * For use in CSCI305 Fall 2016 Lab #4 - ATM 
- * 
- * denom stores the amounts of each denomination available to
- * the ATM to make change with.
- * Stored as integers, with associated getter and setter methods.
- *
- */
-
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -15,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace atm
 {
-    class denom
+    public class ATM
     {
         //Denomimations available in the atm
         private int numFive = 0;
@@ -25,10 +16,10 @@ namespace atm
         private int numHun = 0;
 
         //Default constructor
-        public denom() { }
+        public ATM() { }
 
         //Constructor that originally instantiates all of the denominations
-        public denom(int numFive, int numTen, int numTwenty, int numFifty, int numHun)
+        public ATM(int numFive, int numTen, int numTwenty, int numFifty, int numHun)
         {
             this.numFive = numFive;
             this.numTen = numTen;
@@ -38,7 +29,7 @@ namespace atm
         }//constructor()
 
         //Default deconstructor
-        ~denom() { }
+        ~ATM() { }
 
         /*Getters for the amount of each denomination*/
 
