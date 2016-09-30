@@ -7,7 +7,7 @@ the requested amount and available change (i.e. if 95$ worth of change was asked
 the ATM is only stated to contain 85$ worth of change). This was resolved in the 
 isChangePossible() function that exists in Processor.cs
 
-Our program consists of 3 classes, change, Processor, and ATM.
+Our program consists of 3 classes; Change, Processor, and ATM.
 Our program could have easily been implemented with the use of a single class,
 but we are anticipating the need to further modify/extend the behavior of this program
 with future assignments, thus hopefully making our program more flexible to increased
