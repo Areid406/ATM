@@ -1,15 +1,17 @@
-/* Processes -version 0.1 - authored by Alex Reid
+/* atmProcessor -version 0.1 - authored by Alex Reid
  * For use in CSCI305 Fall 2016 Lab #4 - ATM 
  * 
- * Processes attempts to process the file gotten from atmDriver
+ * atmProcessor attempts to process the file gotten from atmDriver
  * and determine the amount of money needed to be dispensed and the 
  * amount of each denomination. Will return exception if file not found.
  *
- * Processes should also handle cases where amounts for a
+ * atmProcessor should also handle cases where amounts for a
  * certain denomination(s) may not be given due to incorrect 
  * input formatting. i.e. = [m, n5, n10, , , ]
  *                          [m, n5, n10]
  *                          [m, n5]
+ *
+ * NOTE!!! : atmProcessor.cs has been replaced by processor.cs
  */
 
 using System;
